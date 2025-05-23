@@ -4,3 +4,8 @@ insert into usuarios (nome, nick, email, senha) values ('Usuario 1', 'usuario_1'
 
 
 insert into seguidores (usuario_id, seguidor_id) values (1, 2), (1, 3), (2, 3);
+
+
+insert into publicacoes (titulo, conteudo, autor_id) values ('Publicação 1', 'Conteúdo da publicação 1', 1),
+('Publicação 2', 'Conteúdo da publicação 2', 1),
+('Publicação 3', 'Conteúdo da publicação 3', 2);
